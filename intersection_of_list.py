@@ -29,7 +29,7 @@ class Solution:
 
 # Intersection of Two linked list optimized approach.
 class Solution:
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         if not headA or not headB:
             return None
         currA = headA
